@@ -1,11 +1,11 @@
-import outclass
-import subfolder.inclass
+from outclass import OutClass
+from subfolder.inclass import InClass
 
 def main():
-    object1 = outclass.OutClass()
+    object1 = OutClass()
     object1.display()
 
-    object2 = subfolder.inclass.InClass()
+    object2 = InClass()
     object2.display()
 
 if __name__ == "__main__":
