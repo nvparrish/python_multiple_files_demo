@@ -1,4 +1,7 @@
 import os
+#import neighbor as nb
+import subfolder.neighbor as nb
+
 class InClass:
     def __init__(self, debug=False):
         self.filename = "file1.txt"
@@ -9,4 +12,7 @@ class InClass:
         with open(self.filename) as f:
             for line in f:
                 print(line)
+    def greet_neighbor(self):
+        neighbor = nb.Neighbor()
+        neighbor.display() 
 

@@ -7,6 +7,7 @@ def main():
 
     object2 = subfolder.inclass.InClass()
     object2.display()
+    object2.greet_neighbor()
 
 if __name__ == "__main__":
     main()
